@@ -4,7 +4,7 @@ for i in range(0,n):
   b=int(input())
   a.append(b)
 k=int(input("enter k"))
-for i in a:
-  if(k==i):
-    print("yes")
-    
+if(k in a):
+  print("yes")
+else:
+  print("no")
